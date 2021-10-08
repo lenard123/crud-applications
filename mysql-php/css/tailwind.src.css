@@ -1,0 +1,31 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer components {
+  .btn {
+    @apply py-2 px-5 rounded inline-block transition;
+  }
+}
+
+
+.btn-default {
+  @apply btn bg-white text-white hover:bg-gray-400 text-gray-800 hover:text-white border border-gray-400
+}
+
+.btn-primary {
+  @apply btn bg-primary text-white hover:bg-primary-700;
+}
+
+.btn-red {
+  @apply btn bg-red-500 text-white hover:bg-red-700;
+}
+
+.form-group {
+  @apply flex flex-col;
+}
+
+.form-input {
+  @apply py-2 px-3 border border-gray-400 rounded w-full;
+}
