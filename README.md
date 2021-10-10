@@ -5,7 +5,7 @@ Collection of my examples of CRUD written in different programming languages. I 
 </p>
 
 ## Table of Contents
-  1. MySQL + PHP (vanilla)
+  1. [MySQL + PHP (vanilla)](./mysql-php/)
   
 ## Contributions
 
